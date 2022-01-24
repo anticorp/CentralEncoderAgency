@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)CentralEncoderAgency.vcxitems">
+      <Filter>_stuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)CentralEncoderAgency.vcxitems.filters">
+      <Filter>_stuff</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)library.properties">
+      <Filter>_stuff</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)readme.txt">
+      <Filter>_stuff</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Central Encoder Agency">
+      <UniqueIdentifier>{63ad71cd-8add-436a-b6d1-39c9e79cc857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_stuff">
+      <UniqueIdentifier>{12eb5fae-8694-4e32-95c4-1a57c1019770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Central Encoder Agency\HQ">
+      <UniqueIdentifier>{0943c80a-4e9a-451b-8c84-1dffa2a5ee93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\CentralEncoderAgency.cpp">
+      <Filter>Central Encoder Agency</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\HeadQuarters\HQ.cpp">
+      <Filter>Central Encoder Agency\HQ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\CentralEncoderAgency.h">
+      <Filter>Central Encoder Agency</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\HeadQuarters\HQ.h">
+      <Filter>Central Encoder Agency\HQ</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
